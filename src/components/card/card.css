@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif;
+}
+body{
+    background-color: lavender;
+}
+.cardSection{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+.cardContainer{
+    height: 400px;
+    width: 320px;
+    padding: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 5px;
+    margin: 20px 15px;
+    box-shadow: 9px 9px 10px gray;
+}
+.cardNum{
+    color: gray;
+border: 1px solid gray;
+border-radius: 100%;
+width: 15px;
+height: 15px;
+padding: 1.8px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 14px;
+
+}
+.cardTittle{
+    text-transform: capitalize;
+}
+.cardCategiry{
+    width: max-content;
+    text-transform: uppercase;
+    color: gray;
+    font-size: 14px;
+
+}
+.cardDiscription{
+    text-transform: capitalize;
+    color: gray;
+    font-size: 13px;
+    line-height: 18px;   
+}
+.cardImg{
+    height: 200px;
+    width: 320px;
+}
+.cardBtnDiv{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.cradPrice{
+    font-size: 20px;
+    font-weight: bolder;
+    margin-left: 10px;
+}
+.cardBtn{
+    width: max-content;
+    padding: 6px 10px;
+    border-radius: 5px;
+    outline: none;
+    border: 2px solid #000;
+    color: #000;
+    cursor: pointer;
+    font-size: 15px;
+}
+.cardBtn:hover{
+    color: red;
+    border: 2px solid #000;
+
+}
